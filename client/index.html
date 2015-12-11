@@ -5,15 +5,26 @@
     <title>Welcome to Umami</title>
     <link rel="stylesheet" type="text/css" href="lib/semantic/dist/semantic.min.css" />
     <link rel="stylesheet" type="text/css" href="styles/style.css" />
+    <!--<link rel="stylesheet" type="text/css" href="styles/layout.css" />-->
   </head>
   <body>
-    <h1>Umami</h1>
+  <div class="headwrap container">
+    <div class="wrapper bgded overlay" style="background-image:url('assets/sweets800x299.jpg');">
+      <div id="pageintro" class="hoc clear">
+        <article class="introtxt">
+          <h2 class="heading">Umami</h2>
+          <p>How much garlic?</p>
+        </article>
+      </div>
+    </div>
+  </div>
 
     <!-- the ng-view directive is where our templates will be loaded into when naviagted to -->
     <div ng-view></div>
 
     <script src="lib/jquery/dist/jquery.min.js"></script>
     <script src="lib/semantic/dist/semantic.min.js"></script>
+    <script src="lib/semantic/dist/masonry.pkgd.min.js"></script>
 
     <script src="lib/angular/angular.js"></script>
     <script src="lib/angular/angular.js"></script>

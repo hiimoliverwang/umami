@@ -151,3 +151,8 @@ input[type=url]:focus {
   clear: both;
 }
 
+#pageintro{
+  height:300px;
+  margin:15px;
+}
+
