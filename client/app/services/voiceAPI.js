@@ -23,10 +23,10 @@ angular.module('umami.voiceAPI', [])
             return recipe.instructions[currentStep];
           },
           ingredients:function(){
-            return recipe.ingredients.join('.');
+            return recipe.ingredients.join('. ');
           },
           directions:function(){
-            return recipe.instructions.join('.');
+            return recipe.instructions.join('. ');
           },
           help:function(){
             return "you can say directions, ingredients, next, previous, or repeat";
